@@ -52,7 +52,7 @@ export default function About() {
 
         {/* Culture & Ethics */}
         <section className="mt-8">
-          <h2 className="text-2xl font-semibold text-slate-800">Work Culture, Philosophy & Ethics</h2>
+          <h2 className="text-2xl font-semibold text-slate-800">Work Culture & Ethics</h2>
           <p className="mt-3 text-slate-600 leading-relaxed max-w-3xl">
             We strive to become better versions of ourselves daily by expanding the breadth and depth
             of our knowledge. We prioritise collaboration over competition and focus on building
