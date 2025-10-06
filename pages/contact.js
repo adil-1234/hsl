@@ -23,7 +23,7 @@ export default function Contact() {
           <h1 className="text-3xl font-bold">Contact</h1>
           <p className="mt-4 text-lg max-w-3xl text-white/90 leading-relaxed">
             Interested in partnering, investing, licensing, or working together? Fill the form
-            below or reach out directly — we typically respond within a few business days.
+            below or reach out directly, we typically respond within a few business days.
           </p>
         </div>
       </div>
@@ -107,7 +107,7 @@ export default function Contact() {
             <div className="p-6 bg-white rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-slate-800">Contact details</h3>
               <ul className="mt-3 text-slate-600 space-y-2">
-                <li><strong>Email:</strong> <a href="mailto:hello@humanizesoftware.com" className="text-sky-600">info@humanize.co.in</a></li>
+                <li><strong>Queries:</strong> <a href="mailto:hello@humanizesoftware.com" className="text-sky-600">info@humanize.co.in</a></li>
                 <li><strong>Partnerships & Investment:</strong> <a href="mailto:partners@humanizesoftware.com" className="text-sky-600">partners@humanize.co.in</a></li>
                 <li><strong>Careers:</strong> <a href="mailto:careers@humanize.co.in" className="text-sky-600">careers@humanize.co.in</a></li>
                 <li><strong>Location:</strong> [Karnataka/Bangalore]</li>

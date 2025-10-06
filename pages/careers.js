@@ -51,7 +51,6 @@ export default function Careers() {
             >
               careers@humanize.co.in
             </a>
-            . For targeted roles you can also apply directly on the role page.
           </p>
 
           <div className="mt-6">

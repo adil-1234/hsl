@@ -47,7 +47,7 @@ export default function Home() {
 
       {/* SPROSE Section */}
       <section className="max-w-6xl mx-auto px-6 py-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-800">
+        <h2 className="text-2xl md:text-3xl font-semibold text-center text-slate-800">
           SPROSE - Structured Problem Solving Engine
         </h2>
 
@@ -57,15 +57,15 @@ export default function Home() {
             <p className="mt-3 text-slate-600">
               SPROSE models human intentions, encodes step-by-step logic, and stores it in
               structured memory. The system executes deterministic reasoning to produce
-              predictable, verifiable results — unlike probabilistic LLM outputs.
+              predictable, verifiable results, unlike probabilistic LLM outputs.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold">Why it matters</h3>
             <p className="mt-3 text-slate-600">
-              When machines make decisions in critical systems — robots, aerospace, healthcare,
-              or finance — predictability and explainability are non-negotiable. SPROSE gives
+              When machines make decisions in critical systems like robots, aerospace, healthcare,
+              or finance,predictability and explainability are non-negotiable. SPROSE gives
               engineers a reasoning engine they can test, audit, and deploy with confidence.
             </p>
           </div>
@@ -75,7 +75,7 @@ export default function Home() {
       {/* Applications Snapshot Section */}
       <section className="bg-white py-12">
         <div className="max-w-6xl mx-auto px-6">
-          <h3 className="text-xl font-semibold text-center text-slate-800">
+          <h3 className="text-2xl font-semibold text-center text-slate-800">
               Applications snapshot
           </h3>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -108,7 +108,7 @@ export default function Home() {
 
       {/* Credibility Section */}
       <section className="max-w-6xl mx-auto px-6 py-12">
-        <h3 className="text-lg font-semibold text-center text-slate-800">
+        <h3 className="text-2xl font-semibold text-center text-slate-800">
           Credibility
         </h3>
         <ul className="mt-4 list-disc ml-5 text-slate-600">
@@ -141,7 +141,7 @@ export default function Home() {
       {/* Get Started Section */}
       <section className="bg-white py-16 border-t">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-2xl font-bold text-center">Get Started</h2>
+          <h2 className="text-2xl font-semibold text-center">Get Started</h2>
           <p className="mt-2 text-center text-slate-600">
             Create an account or log in to access more.
           </p>
