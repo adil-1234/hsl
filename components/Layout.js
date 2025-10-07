@@ -192,17 +192,76 @@ export default function Layout({ children, hideAccount = false }) {
 
       <main className="flex-1">{children}</main>
 
-      <footer className="bg-gray-50 border-t">
-        <div className="max-w-6xl mx-auto px-6 py-8 text-sm">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-            <div className="text-slate-600">© {new Date().getFullYear()} HUMANIZE SOFTWARE LABS — Humanizing machines</div>
-            <div className="flex items-center gap-4">
-              <a href="#" aria-label="Twitter" className="hover:text-sky-600">Twitter</a>
-              <a href="#" aria-label="LinkedIn" className="hover:text-sky-600">LinkedIn</a>
-            </div>
+<footer className="bg-white border-t border-gray-200">
+  <div className="max-w-6xl mx-auto px-6 py-10">
+    {/* Top Row */}
+    <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-20">
+      {/* Company Info */}
+      <div className="flex-1">
+        <div className="flex items-center gap-3">
+          <img src="/logo.png" alt="Humanize Software Labs" width={44} height={44} className="rounded-lg shadow-sm" />
+          <div>
+            <h3 className="text-lg font-semibold text-slate-700">Humanize Software Labs</h3>
+            <p className="text-sm text-slate-500">Humanizing Machines</p>
           </div>
         </div>
-      </footer>
+
+        <div className="mt-4 text-xs text-slate-500 leading-relaxed">
+          MSME Udyam Registration No: <span className="font-medium">UDYAM-KR-22-0129107</span><br />
+        </div>
+
+        <div className="mt-3 text-sm">
+          <a href="mailto:contact@humanize.co.in" className="text-humanize hover:text-humanize-dark transition-colors">
+            contact@humanize.co.in
+          </a>
+        </div>
+      </div>
+
+      {/* Navigation Links */}
+      <div className="flex-1 grid grid-cols-2 sm:grid-cols-3 gap-6 text-sm">
+        <div>
+          <h4 className="font-semibold text-slate-700 mb-3">Company</h4>
+          <ul className="space-y-2">
+            <li><Link href="/about" className="hover:text-humanize">About</Link></li>
+            <li><Link href="/careers" className="hover:text-humanize">Careers</Link></li>
+            <li><Link href="/partners" className="hover:text-humanize">Partners</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="font-semibold text-slate-700 mb-3">Products</h4>
+          <ul className="space-y-2">
+            <li><Link href="/technology" className="hover:text-humanize">Technology</Link></li>
+            <li><Link href="/applications" className="hover:text-humanize">Applications</Link></li>
+            <li><Link href="/sprose" className="hover:text-humanize">Philosophy</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="font-semibold text-slate-700 mb-3">Resources</h4>
+          <ul className="space-y-2">
+            <li><Link href="/contact" className="hover:text-humanize">Contact</Link></li>
+            <li><a href="#" className="hover:text-humanize">Blog</a></li>
+            <li><a href="#" className="hover:text-humanize">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    {/* Divider */}
+    <div className="border-t border-gray-200 my-8"></div>
+
+    {/* Bottom Row */}
+    <div className="flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 gap-3">
+      <div>© {new Date().getFullYear()} <span className="font-medium">HUMANIZE SOFTWARE LABS</span> — All Rights Reserved</div>
+      <div className="flex items-center gap-4">
+        <a href="#" aria-label="Twitter" className="hover:text-humanize transition-colors">Twitter</a>
+        <a href="#" aria-label="LinkedIn" className="hover:text-humanize transition-colors">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
     </div>
   )
 }
