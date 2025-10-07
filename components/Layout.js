@@ -207,7 +207,7 @@ export default function Layout({ children, hideAccount = false }) {
         </div>
 
         <div className="mt-4 text-xs text-slate-500 leading-relaxed">
-          MSME Udyam Registration No: <span className="font-medium">UDYAM-KR-22-0129107</span><br />
+          MSME URN: <span className="font-medium">UDYAM-KR-22-0129107</span><br />
         </div>
 
         <div className="mt-3 text-sm">
