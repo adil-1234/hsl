@@ -75,6 +75,7 @@ export default function Layout({ children, hideAccount = false }) {
       <Link href="/applications" className="block px-4 py-2 hover:text-sky-600">Applications</Link>
       <Link href="/sprose" className="block px-4 py-2 hover:text-sky-600">Philosophy</Link>
       <Link href="/partners" className="block px-4 py-2 hover:text-sky-600">Partners</Link>
+      <Link href="/Demo" className="block px-4 py-2 hover:text-sky-600">Demo</Link>
       <Link href="/careers" className="block px-4 py-2 hover:text-sky-600">Careers</Link>
       <Link href="/contact" className="block px-4 py-2 hover:text-sky-600">Contact</Link>
     </>
@@ -106,6 +107,7 @@ export default function Layout({ children, hideAccount = false }) {
               <Link href="/applications" className="hover:text-sky-600">Applications</Link>
               <Link href="/sprose" className="hover:text-sky-600">Philosophy</Link>
               <Link href="/partners" className="hover:text-sky-600">Partners</Link>
+              <Link href="/Demo" className="hover:text-sky-600">Demo</Link>
               <Link href="/careers" className="hover:text-sky-600">Careers</Link>
               <Link href="/contact" className="hover:text-sky-600">Contact</Link>
             </div>
