@@ -110,7 +110,10 @@ export default function Contact() {
                 <li><strong>Queries:</strong> <a href="mailto:hello@humanizesoftware.com" className="text-sky-600">info@humanize.co.in</a></li>
                 <li><strong>Partnerships & Investment:</strong> <a href="mailto:partners@humanizesoftware.com" className="text-sky-600">partners@humanize.co.in</a></li>
                 <li><strong>Careers:</strong> <a href="mailto:careers@humanize.co.in" className="text-sky-600">careers@humanize.co.in</a></li>
-                <li><strong>Location:</strong> [Karnataka/Bangalore]</li>
+                <li><strong>Location:</strong>
+                #1476, II STAGE, I PHASE, CHRISTAIN COLONY,
+                RAJIV NAGAR, MYSORE, KARNATAKA, India - 570019.
+                </li>
               </ul>
               <div className="mt-4">
                 <Link href="/partners" className="text-sky-600">Interested in partnering →</Link>
